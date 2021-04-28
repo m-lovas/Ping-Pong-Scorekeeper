@@ -39,5 +39,6 @@ resetButton.addEventListener('click', function(){
 //   displayScore.innerText = `${score1} to ${score2}`
 p1Span.innerText = `${score1}`
 p2Span.innerText = `${score2}`
-
+p1Span.style.color = '#363636'
+p2Span.style.color = '#363636'
 })
